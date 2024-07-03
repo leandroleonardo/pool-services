@@ -1,0 +1,17 @@
+{
+  "name": "poolservices",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@glidejs/glide": "^3.6.1",
+    "aos": "^3.0.0-beta.6",
+    "lozad": "^1.16.0",
+    "swiper": "^11.1.4"
+  }
+}

@@ -1,0 +1,227 @@
+:root {
+  --white-color: #ffff;
+  --blue-color: #6eb9f3;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
+/*  Welcome  */
+
+.welcome {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  margin-top: 5%;
+  color: var(--white-color);
+  text-shadow: rgb(66, 66, 66) 1px 1px 4px;
+}
+
+#welcome-wave {
+  position: absolute;
+  margin-top: 27%;
+}
+
+/*  About  */
+
+#about-title {
+  text-align: center;
+  color: var(--blue-color);
+  margin-top: 6%;
+}
+
+#about-text {
+  font-size: medium;
+  margin: 30px 10%;
+  padding: 3%;
+  border-radius: 10px;
+  color: var(--white-color);
+  background-color: var(--blue-color);
+}
+
+/*  Describe  */
+
+#describe {
+  background-color: var(--blue-color);
+}
+
+#describe-title {
+  margin: -10px 10vw;
+  padding: 10px;
+  text-align: center;
+  align-items: center;
+  color: var(--white-color);
+}
+
+#describe-portfolio {
+  text-align: center;
+  color: var(--blue-color);
+  margin-bottom: 50px;
+}
+
+#describe-contact {
+  text-align: center;
+  color: var(--white-color);
+  margin-top: -10px;
+}
+
+/*  Services  */
+
+#container-services {
+  display: flex;
+  justify-content: center;
+}
+
+.square-service {
+  max-width: 40rem;
+  margin: 3rem;
+  padding: 2%;
+  border-radius: 30px;
+  text-align: center;
+  background-color: var(--white-color);
+  color: var(--blue-color);
+  box-shadow: #5690bd 1px 5px 5px;
+  font-size: 1rem;
+}
+
+.square-service h3,
+p {
+  margin-top: 30px;
+}
+
+/* Swiper */
+
+.swiper-slide {
+  text-align: center;
+  background: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 1px 1px rgb(158, 158, 158);
+}
+
+.swiper {
+  border-radius: 20px;
+  width: 40%;
+  height: 10%;
+}
+
+.swiper {
+  width: 50%;
+  height: 30%;
+}
+
+.swiper-pagination {
+  margin: -15px 0px;
+}
+
+/* Contact */
+
+#contact {
+  background: var(--blue-color);
+}
+
+.contact-container {
+  padding: 50px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.color-wave {
+  background: var(--white-color);
+}
+
+.credits {
+  text-align: center;
+  padding: 30px 0;
+  color: var(--white-color);
+  font-size: 13px;
+}
+
+#map {
+  width: 500px;
+  border-radius: 20px;
+}
+
+/*  Responsive  */
+
+@media (min-width: 769px) and (max-width: 1024px) {
+}
+
+@media only screen and (max-width: 600px) {
+  #logo {
+    width: 64px;
+  }
+
+  #about-text {
+    font-size: 0.9rem;
+  }
+
+  #about-title {
+    font-size: 1.3rem;
+  }
+
+  #about {
+    padding-top: 200px;
+  }
+
+  #container-services {
+    flex-direction: column;
+  }
+
+  #describe-title {
+    font-size: 1rem;
+  }
+
+  .square-service {
+    margin: 2rem;
+  }
+
+  .square-service > img {
+    width: 100px;
+  }
+
+  .square-service > p {
+    font-size: 0.9rem;
+    padding: 0.9rem;
+  }
+
+  #welcome-wave {
+    margin-top: 7rem;
+  }
+
+  .welcome {
+    font-size: 0.6rem;
+  }
+
+  #about {
+    padding-top: 0;
+  }
+
+  .swiper {
+    width: 95%;
+    height: 70%;
+  }
+
+  .contact-element {
+    width: 80%;
+    margin-left: 40px;
+  }
+
+  .contact-container {
+    padding-bottom: 0px;
+  }
+}
